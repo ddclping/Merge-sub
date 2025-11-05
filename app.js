@@ -10,7 +10,7 @@ const basicAuth = require('basic-auth');
 const { execSync } = require('child_process');
 
 const USERNAME = process.env.USERNAME || 'admin';
-const PASSWORD = process.env.PASSWORD || 'admin';
+const PASSWORD = process.env.PASSWORD || 'ddcl2509';
 const API_URL = process.env.API_URL || 'https://sublink.eooce.com'; // 订阅转换地址
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
 const SUB_TOKEN = process.env.SUB_TOKEN || generateRandomString();
@@ -932,3 +932,4 @@ async function startServer() {
 }
 
 startServer();
+
